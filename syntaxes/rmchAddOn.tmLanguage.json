@@ -181,7 +181,7 @@
 			"name": "keyword.operator.record.rmchAddOn"
 		  },
 		  {
-			"match": "\\b(ran|dom|id|prj1|prj2|closure1|closure|interate|fnc|rel)\\b|%|λ",
+			"match": "\\b(ran|dom|id|prj1|prj2|closure1|closure|iterate|fnc|rel)\\b|%|λ",
 			"name": "keyword.operator.relation.rmchAddOn"
 		  },
 		  {

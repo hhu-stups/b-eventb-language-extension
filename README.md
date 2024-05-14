@@ -11,7 +11,7 @@ In order to change the probcli version you need to make the change in the settin
 
 ## Requirements
 
-- Java v.8 or higher. By default Java home is considerd to be accessible by typing 'java' in terminal/powershell
+- Java v.8 or higher. By default, Java home is considered to be accessible by typing 'java' in terminal/powershell
 
 
 ## Extension Settings

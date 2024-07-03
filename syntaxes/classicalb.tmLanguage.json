@@ -125,6 +125,22 @@
 			},
 			"end": "'''",
 			"name": "string.quoted.triple.classicalb"
+		  },
+		  {
+			"begin": "```",
+			"captures": {
+				"0": {
+					"name": "punctuation.definition.string.begin.classicalb"
+				}
+			},
+			"end": "```",
+			"name": "string.quoted.backtickTriple.classicalb",
+			"patterns": [
+			  {
+				  "match": "\\$(\\[.*\\])?\\{.*\\}",
+				  "name": "constant.character.escape.template.classicalb"
+			  }
+			]
 		  }
 		]
 	  },

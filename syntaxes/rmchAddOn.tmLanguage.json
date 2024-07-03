@@ -131,6 +131,22 @@
 			},
 			"end": "'''",
 			"name": "string.quoted.triple.rmchAddOn"
+		  },
+		  {
+			"begin": "```",
+			"captures": {
+				"0": {
+					"name": "punctuation.definition.string.begin.rmchAddOn"
+				}
+			},
+			"end": "```",
+			"name": "string.quoted.backtickTriple.rmchAddOn",
+			"patterns": [
+			  {
+				  "match": "\\$(\\[.*\\])?\\{.*\\}",
+				  "name": "constant.character.escape.template.rmchAddOn"
+			  }
+		    ]
 		  }
 		]
 	  },
